@@ -5,13 +5,18 @@
 
 <h1>WishList</h1>
 
-<a asp-action="create" >Add Item</a>
+<a asp-action="create">Add Item</a>
 
-<ul>
-    @foreach(var item in Model.Item)
+
+@**  <ul>
+   @foreach (var item in Model.Item)
     {
-       <li> @item.Description <a asp-action="delete" asp-route-id="@item.Id">delete</a></li>
-      
-    }
-</ul>
+        <li> @item.Description <a asp-action="delete" asp-route-id="@item.Id">delete</a></li>
+
+    } 
+
+
+</ul> *@
+
+-
 
